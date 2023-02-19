@@ -1,3 +1,3 @@
 # Mesoanalysis
 
-Improvement of the existing SPC Mesoanalysis mobile site.  Uses React.js.
+Alternative way of presenting the existing SPC Mesoanalysis mobile site.  Uses React.js.
