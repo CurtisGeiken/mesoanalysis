@@ -146,7 +146,103 @@ return;
           <NavDropdownItemProduct productId={35} onProductClick={this.handleProductClick} /> 
           <NavDropdownItemProduct productId={36} onProductClick={this.handleProductClick} /> 
           <NavDropdownItemProduct productId={37} onProductClick={this.handleProductClick} /> 
-          </NavDropdown>                     
+          </NavDropdown>  
+
+          <NavDropdown title="Thermodynamic Fields" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={38} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={39} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={40} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={41} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={42} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={43} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={44} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={45} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={46} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={47} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={48} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={49} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={50} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={51} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={52} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={53} onProductClick={this.handleProductClick} />
+          </NavDropdown>
+
+          <NavDropdown title="Wind Shear" id="collasible-nav-dropdown">  
+          <NavDropdownItemProduct productId={54} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={55} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={56} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={57} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={58} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={59} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={60} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={61} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={62} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={63} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={64} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={65} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={66} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={67} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={68} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={69} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={70} onProductClick={this.handleProductClick} />
+          </NavDropdown>    
+
+          <NavDropdown title="Composite Indices" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={71} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={72} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={73} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={74} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={75} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={76} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={77} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={78} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={79} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={80} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={81} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={82} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={83} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={84} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={85} onProductClick={this.handleProductClick} />
+          </NavDropdown>
+
+          <NavDropdown title="Multi-Parameter Fields" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={86} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={87} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={88} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={89} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={90} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={91} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={92} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={93} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={94} onProductClick={this.handleProductClick} />
+          </NavDropdown>
+
+          <NavDropdown title="Heavy Rainfall" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={95} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={96} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={97} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={98} onProductClick={this.handleProductClick} />
+          </NavDropdown>
+
+          <NavDropdown title="Winter Weather" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={99} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={100} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={101} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={102} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={103} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={104} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={105} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={106} onProductClick={this.handleProductClick} />
+          </NavDropdown>      
+
+          <NavDropdown title="Fire Weather" id="collasible-nav-dropdown">
+          <NavDropdownItemProduct productId={107} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={108} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={109} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={110} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={111} onProductClick={this.handleProductClick} />
+          <NavDropdownItemProduct productId={112} onProductClick={this.handleProductClick} />
+          </NavDropdown>                                
 
         </Nav>
       </Navbar.Collapse>
