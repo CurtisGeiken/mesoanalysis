@@ -46,11 +46,15 @@ class MesoImage extends React.Component {
         // Build the image url
         var url = "https://www.spc.noaa.gov/exper/mesoanalysis/" + mesoImageSector + "/" + productToDisplay.urlName + "/" + productToDisplay.urlName + ".gif";
 
+        // Current date
+        var dt = new Date();
+
       return (
         <>
         <h3 onClick={(e) => this.handleFavClick(productId, e)}>{productToDisplay.displayName}</h3>
         <img id="Meso-image" src={url} onClick={(e) => this.handleImgClick(productId, e)}/>
         <p>{productToDisplay.infoText}</p>
+        <p>Last updated: {dt.toUTCString()}</p>
         </>
       );
     }
