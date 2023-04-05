@@ -22,12 +22,17 @@ class MesoImage extends React.Component {
               break;
             }
             case 3: {
+              this.forceUpdateHandler();
               break;
             }
             default: {
               break;
             }
           }            
+    }
+
+    forceUpdateHandler() { 
+      this.forceUpdate();
     }
 
     handleFavClick(productId, e) {
