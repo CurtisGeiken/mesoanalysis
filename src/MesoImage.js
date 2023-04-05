@@ -59,7 +59,7 @@ class MesoImage extends React.Component {
         <h3 onClick={(e) => this.handleFavClick(productId, e)}>{productToDisplay.displayName}</h3>
         <img id="Meso-image" src={url} onClick={(e) => this.handleImgClick(productId, e)}/>
         <p>{productToDisplay.infoText}</p>
-        <p>Last updated: {dt.toLocaleString()}</p>
+        <p onClick={(e) => this.forceUpdateHandler()}>Last updated: {dt.toLocaleString()}</p>
         </>
       );
     }
